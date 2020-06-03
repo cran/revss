@@ -1,0 +1,16 @@
+133ca940e333634686428bbdab6591c9 *DESCRIPTION
+158d0bc7532ace70a6fd42476b6f00a0 *LICENSE
+62bfaf35439323d03e03a1526aa6f4f0 *NAMESPACE
+bcabb96559aaeec01a976fcff51e7eb1 *R/adm.R
+efcc7cfb741e01164aa2cd38268eac0f *R/robLoc.R
+10117502120ff5c0cfbbca9e361d5d26 *R/robScale.R
+ffbd490e597f6f1a191233ee9fa4764d *README.md
+13e480e0fee8bd05dd983c4daa1501f7 *build/partial.rdb
+8415c5d9437d267ec9b5199a991ed1f5 *inst/CITATION
+6e4d6adec3397cc576e5aa49ab22e59c *inst/NEWS.Rd
+7d78196bdf31382bd90f1ad144f1490a *man/adm.Rd
+c293aa1ef0449c3b0a1566a10682fbb7 *man/revss-package.Rd
+ae3902ff3b98c5c60ad16a19ded51a61 *man/robLoc.Rd
+0f3a0b22ced77aff58f0cd5f3b7c51f9 *man/robScale.Rd
+cb410c989b47c24ab4835b71924413c1 *tests/test-all.r
+7357041c794505345fb6d47fed64529b *tests/testthat/test-revss.R
