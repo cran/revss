@@ -1,8 +1,8 @@
 Package: revss
 Type: Package
 Title: Robust Estimation in Very Small Samples
-Version: 1.0.1
-Date: 2020-11-10
+Version: 1.0.2
+Date: 2021-12-12
 Authors@R: c(person(given = "Avraham", family = "Adler",
     role = c("aut", "cph", "cre"), email = "Avraham.Adler@gmail.com",
     comment = c(ORCID = "0000-0002-3039-0703")))
@@ -15,11 +15,10 @@ BugReports: https://github.com/aadler/revss/issues
 Encoding: UTF-8
 Suggests: testthat, covr
 Imports: stats
-LazyData: true
 NeedsCompilation: no
 Config/testthat/edition: 3
-Packaged: 2020-11-10 06:16:35 UTC; Parents
+Packaged: 2021-12-14 03:09:41 UTC; Parents
 Author: Avraham Adler [aut, cph, cre] (<https://orcid.org/0000-0002-3039-0703>)
 Maintainer: Avraham Adler <Avraham.Adler@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-11-10 06:30:02 UTC
+Date/Publication: 2021-12-14 22:50:02 UTC

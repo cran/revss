@@ -1,9 +1,8 @@
 <!-- badges: start -->
-[![](https://www.r-pkg.org/badges/version-last-release/revss)]
-[![](https://cranlogs.r-pkg.org/badges/revss)]
-[![Travis build status](https://travis-ci.com/aadler/revss.svg?branch=master)](https://travis-ci.com/aadler/revss)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/aadler/revss?branch=master&svg=true)](https://ci.appveyor.com/project/aadler/revss)
-[![Codecov test coverage](https://codecov.io/gh/aadler/revss/branch/master/graph/badge.svg)](https://codecov.io/gh/aadler/revss?branch=master)
+[![CRAN version](https://www.r-pkg.org/badges/version-last-release/revss)](https://www.r-pkg.org/badges/version-last-release/revss)
+[![](https://cranlogs.r-pkg.org/badges/last-month/revss)](https://cran.r-project.org/package=revss)
+[![R build status](https://github.com/aadler/revss/workflows/R-CMD-check/badge.svg)](https://github.com/aadler/revss/actions)
+[![Codecov test coverage](https://codecov.io/gh/aadler/revss/branch/master/graph/badge.svg)](https://app.codecov.io/gh/aadler/revss?branch=master)
 <!-- badges: end -->
 
 # revss
@@ -15,7 +14,7 @@ for the location and scale of very small samples.
 If you use the package, please cite it as:
 
   Avraham Adler (2020). revss: Robust Estimation in Very Small Samples.
-  R package version 1.0.1.
+  R package version 1.0.2.
   https://CRAN.R-project.org/package=revss
 
 A BibTeX entry for LaTeX users is:
@@ -26,7 +25,7 @@ A BibTeX entry for LaTeX users is:
     author = {Avraham Adler},
     year = {2020},
     url = {https://CRAN.R-project.org/package=revss},
-    note = {R package version 1.0.1},
+    note = {R package version 1.0.2},
   }
 ```
 
