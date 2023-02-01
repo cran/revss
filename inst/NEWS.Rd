@@ -2,12 +2,30 @@
 \alias{NEWS}
 \title{NEWS file for the revss package}
 
+\section{Version 1.0.5 (2023-02-01)}{
+  \subsection{Added}{
+    \itemize{
+      \item Explictly mention use case for package to be 3--8 samples
+      \item Note that asymptotic constant for \code{adm} may not apply with few
+      samples
+    }
+  }
+  \subsection{Changed}{
+    \itemize{
+      \item Update README
+      \item Update Github actions
+      \item Make code more compliant with style guide
+      \item CITATION updated to use \code{bibentry} per CRAN request
+    }
+  }
+}
+
 \section{Version 1.0.4 (2022-04-03)}{
   \subsection{Changed}{
     \itemize{
       \item Explictly use integers in count and lengths
       \item Use singleton logical comparisons for short-circuit
-      \item Updated README for Best Practice
+      \item Update README for Best Practice
     }
   }
   \subsection{Added}{
