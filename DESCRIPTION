@@ -1,8 +1,8 @@
 Package: revss
 Type: Package
 Title: Robust Estimation in Very Small Samples
-Version: 1.0.5
-Date: 2023-02-01
+Version: 1.0.6
+Date: 2024-02-01
 Authors@R: c(person(given = "Avraham", family = "Adler",
     role = c("aut", "cph", "cre"), email = "Avraham.Adler@gmail.com",
     comment = c(ORCID = "0000-0002-3039-0703")))
@@ -16,8 +16,8 @@ Encoding: UTF-8
 Suggests: covr, tinytest
 Imports: stats
 NeedsCompilation: no
-Packaged: 2023-02-01 16:52:47 UTC; Parents
+Packaged: 2024-02-01 20:13:58 UTC; Parents
 Author: Avraham Adler [aut, cph, cre] (<https://orcid.org/0000-0002-3039-0703>)
 Maintainer: Avraham Adler <Avraham.Adler@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-02-01 17:40:02 UTC
+Date/Publication: 2024-02-01 20:30:02 UTC
