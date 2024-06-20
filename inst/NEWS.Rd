@@ -5,6 +5,28 @@
 \alias{NEWS}
 \title{NEWS file for the revss package}
 
+\section{Version 2.0.0 (2024-06-20)}{
+  \subsection{Changed}{
+    \itemize{
+      \item \strong{Breaking:} In \code{robScale}, the constant representing
+      the denominator for \eqn{x} (see equation 26) which allows for
+      \eqn{\beta = \int{\rho(u)\;d\Phi(u)} = 0.5}{beta =
+      integral of rho(u) d Phi(u) = 0.5} was calculated to greater precision
+      than the four digits shown in the paper. This changes results slightly,
+      which is why the major version has been incremented.
+      \item Updated documentation.
+      \item Updated unit tests.
+      \item Expanded package metadata tests.
+      \item Use native \acronym{CRAN} \acronym{DOI}.
+    }
+  }
+  \subsection{Added}{
+    \itemize{
+      \item Added \pkg{rhub} checking.
+    }
+  }
+}
+
 \section{Version 1.0.6 (2024-02-01)}{
   \subsection{Changed}{
     \itemize{
@@ -24,10 +46,11 @@
   }
   \subsection{Changed}{
     \itemize{
-      \item Update README.
+      \item Update \file{README}.
       \item Update Github actions.
       \item Make code more compliant with style guide.
-      \item CITATION updated to use \code{bibentry} per \acronym{CRAN} request.
+      \item \file{CITATION} updated to use \code{bibentry} per \acronym{CRAN}
+      request.
     }
   }
 }
@@ -50,7 +73,7 @@
 \section{Version 1.0.3 (2022-01-19)}{
   \subsection{Changed}{
     \itemize{
-      \item Converted test suite to \code{tinytest} to reduce dependencies.
+      \item Converted test suite to \pkg{tinytest} to reduce dependencies.
       \item Augmented citation with \acronym{DOI}.
     }
   }
@@ -64,7 +87,7 @@
   }
   \subsection{Changed}{
     \itemize{
-      \item Cleaned up help files and README.
+      \item Cleaned up help files and \file{README}.
       \item Cleaned up source code and added \acronym{SPDX} identifiers.
       \item Moved continuous integration to Github Actions.
     }
@@ -82,8 +105,8 @@
 \section{Version 1.0.0 (2020-11-08)}{
   \subsection{Changed}{
     \itemize{
-      \item Considered mature enough for official \dQuote{release}.
-      \item Changed tests to be \code{testthat} 3rd edition compliant.
+      \item Considered mature enough for official release.
+      \item Changed tests to be \pkg{testthat} 3rd edition compliant.
       \item Changed default \code{maxit} to 80.
     }
   }
@@ -95,7 +118,7 @@
   }
   \subsection{Fixed}{
     \itemize{
-      \item Updated README.
+      \item Updated \file{README}.
     }
   }
 }
